@@ -1,0 +1,310 @@
+/*navigation bar across	the top	of page*/
+.buttonWrapper{
+	background-color: #ffffff;
+}
+#topNavBar	{
+	position: relative;
+	height:	20px;
+	background: #000000;
+	margin:	0;
+	vertical-align:	bottom;
+	border:0;
+	width:	100%;
+}
+.topNav	li	{
+	position: relative;
+	font-family: Geneva,arial,helvetica,sans-serif;
+	font-size: 12px;	
+	font-weight: normal;
+	float:	right;
+	margin-top:10px;
+	margin-bottom:0px;
+	margin-right:20px;
+}
+	
+.topNav	a{
+	color:#ff9900;
+	text-decoration: none;
+}
+.topNav	a:visited	{
+	color:#ff9900;
+	background: #000000;
+}
+.topNav	a:hover{
+	background:#000000;
+	color:	#ffffff;
+	text-decoration: none;
+}
+	.topNav	a:active{
+	color:	#ffcc33;
+	text-decoration: none;
+}
+.uberlink a:link, .uberlink a:visited,	
+.uberlink a:hover, .uberlink a:active {
+	color:	#ff0000;
+}
+
+/*body*/
+.warning{
+	color: red;
+}
+
+body{
+	background-color: #336699
+	}
+#main {
+	width: 900px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: left;
+	background-color: #ffffff; 
+	margin-bottom: 0;
+	}
+
+/*afix * ater required questions*/
+label.required:after {
+ content: "*";
+ color: red
+ }
+.required:after {
+ content: "*";
+ color: red
+ }
+
+/*header and paragraphs*/
+h1{
+	font-size: 1.357em;
+	color:	#036;
+	text-align: center;
+}
+h2{
+	font-size: 1.143em;
+	text-align: left;
+	color:#036;
+	padding-top: 20px;
+}
+h3{
+    font-family: Verdana,"Trebuchet MS",arial,sans-serif;
+	text-align: left;
+	margin:	0 0 1.2em;
+	font-size: .952em;
+	text-align: center;
+	color:#036;
+}
+p{
+    color: #036;
+    font-family: Verdana,"Trebuchet MS",arial,sans-serif;
+    font-size: 12px;
+	text-align: left;
+	margin: 10px;
+	padding: 10px;
+}
+
+p#dateDisplay {
+    font-family: Verdana,"Trebuchet MS",arial,sans-serif;
+	margin:	0 0 1.2em;
+    font-size: 12px;	
+	color:#036;
+}
+p.announcement{
+	font-weight:bold;
+	font-style:oblique;
+    font-size: 12px;	
+    color: #036;
+    font-family: Verdana,"Trebuchet MS",arial,sans-serif;
+    font-size: 12px;
+	margin:	0 0 1.2em;
+	display: block
+}
+label.superLabel {
+    color: #036;
+    font-family: Verdana,"Trebuchet MS",arial,sans-serif;
+    font-size: 12px;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+}
+label {
+    color: #036;
+    font-family: Verdana,"Trebuchet MS",arial,sans-serif;
+    font-size: 12px;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+}
+.input {
+    color: #036;
+    font-family: Verdana,"Trebuchet MS",arial,sans-serif;
+    font-size: 12px;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+}
+
+/*tables*/
+table.blue_border {
+    border-color: #369;
+    border-width: 1px 1px 0 0;
+    border-style: solid
+	border-spacing: 0;
+    border-collapse: collapse;
+}
+
+table.blue_border{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	margin-top: 0;
+	margin-bottom: 0;
+	border-collapse: collapse;
+}
+table.blue_border td{
+    border-color-bottom: #369;
+    border-color-left: #369;
+    border-color-right: #369;
+    border-color: #369;
+    border-width: 1px;
+	border-collapse: collapse;
+}
+.blue_border tr, td { 
+    border-color: #036;!important;
+    border-style: solid;
+    border-width: 1px;
+    color: #036;
+    font-family: Verdana,"Trebuchet MS",arial,sans-serif;
+    font-size: 12px;
+	}
+.blue_border td {
+    border-color: #369;
+	border-collapse: collapse;
+}
+.white_border tr, td { 
+    border-color: #fff;!important;
+    border-style: solid;
+    border-width: 1px;
+    color: #036;
+    font-family: Verdana,"Trebuchet MS",arial,sans-serif;
+    font-size: 12px;
+	}
+.white_border td {
+    display: table-cell;
+    vertical-align: middle; 
+    color: #036;
+    font-family: Verdana,"Trebuchet MS",arial,sans-serif;
+    font-size: 12px;
+    padding: 5px;
+}
+td.colorful {
+    color: #fff;
+    font-family: Verdana,"Trebuchet MS",arial,sans-serif;
+    font-size: 12px;
+    border-style: solid;
+    border-color: #369;
+    border-width: 1px;
+	padding: 2px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #336699;
+}
+.pinfo{
+    width: 800px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 20px;
+    border-style: solid;
+    border-color-bottom: #369;
+    border-color-left: #369;
+    border-color-right: #369;
+    border-color: #369;
+    border-width: 1px;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 6px;
+    padding: 10px;
+}
+.experience{
+    width: 95%;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 20px;
+    border-style: solid;
+    border-color-bottom: #369;
+    border-color-left: #369;
+    border-color-right: #369;
+    border-color: #369;
+    border-width: 1px;
+    background: #ffffff;
+    overflow: hidden;
+    border-radius: 6px;
+    padding: 5px;
+}
+.innercontent{
+    width: 690px;
+	margin-bottom: 0 0 20px;
+    background: #FFFFFF;
+    overflow: hidden;
+    padding: 0px;
+}
+#details{
+	display:none;
+	float: right
+	}
+
+
+/* ----- label for ratebeginning  label for ratesending ----- */
+/* --timetowork-- */
+.indented{
+	margin-left: 25px
+}
+.box{
+	visibility: hidden;
+	}
+.show{
+	visibility: visible;
+	}
+/*Form	Buttons*/
+input.submitbutton{
+	width: 100px;
+	height:	40px;
+	background-color: #006699;
+	padding: 4px;
+	border:	1px solid #339933;
+	cursor:	pointer;
+	text-align: center;
+	color:	#FFFFFF;
+	margin: 27px;
+	float: right
+}
+input.nextbutton{
+	width: 100px;
+	height:	40px;
+	background-color: #663399;
+	padding: 4px;
+	border:	1px solid #339933;
+	cursor:	pointer;
+	text-align: center;
+	color:	#FFFFFF;
+	margin: 27px;
+	float: right
+}
+input.prevbutton{
+	width: 100px;
+	height:	40px;
+	background-color: #663399;
+	padding: 4px;
+	border:	1px solid #339933;
+	cursor:	pointer;
+	text-align: center;
+	color:	#FFFFFF;
+	margin: 7px;
+	float: left
+}
